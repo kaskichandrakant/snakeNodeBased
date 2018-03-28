@@ -42,8 +42,8 @@ charm.pipe(process.stdout);
 
 
 let printFood = function(foodPos, char) {
-  charm.position(foodPos[0], foodPos[1]).write(char);
-  charm.position(0,32).write('ur score is- ' + score.toString())
+  charm.position(foodPos[0], foodPos[1]).foreground('green').write(char);
+  charm.position(0,32).foreground('red').write('ur score is- ' + score.toString())
 }//this function will print the food at some position.
 
 function updateFoodPos(foodPos, head) {
@@ -111,7 +111,7 @@ let printSnake = function(snake, head) {
 };
 
 let writeAtPos = function(pos, char) {
-  charm.position(...pos).write(char);
+  charm.position(...pos).foreground('cyan').write(char);
 }
 //events for keypress which will give direction to the snake.
 inputEvent.on('right', moveSnake);
