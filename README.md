@@ -7,4 +7,5 @@ simple console node based snake game
 ### To start playing copy and run the following command in cli
 
 ```
-curl https://raw.githubusercontent.com/kaskichandrakant/snakeNodeBased/master/initiate.sh |sh
+curl https://raw.githubusercontent.com/kaskichandrakant/snakeNodeBased/master/start.sh > script.sh
+sh script.sh
