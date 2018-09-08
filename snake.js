@@ -114,4 +114,4 @@ inputEvent.on('left', moveSnake);
 inputEvent.on('up', moveSnake);
 inputEvent.on('down', moveSnake);
 
-setInterval(updateSnake, 50); //this is where the game will start.
+setInterval(updateSnake, 100); //this is where the game will start.
