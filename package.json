@@ -1,5 +1,5 @@
 {
-  "name": "terminal_snake_game",
+  "name": "cli_snake_game",
   "version": "1.0.0",
   "description": "simple node based game which can be played on terminal",
   "main": "snake.js",
@@ -18,6 +18,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaskichandrakant/snakeNodeBased/issues"
+  },
+  "engines": {
+    "node": ">=7.10.0"
   },
   "bin":{
     "terminal_snake":"snake.js"
